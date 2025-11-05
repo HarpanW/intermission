@@ -27,9 +27,16 @@ select {
     border: none;
 }
 
+#viewer {
+    display: flex;
+    justify-content: center;
+    /* CENTER IMAGE */
+    margin-top: 1rem;
+}
+
 #viewer img {
     max-width: 90%;
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
-    margin-top: 1rem;
+    /* margin-top: 1rem; remove if redundant with container margin */
 }
