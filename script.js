@@ -31,6 +31,7 @@ function handleDestinationChange(e) {
     if (!dest) return;
 
     const fromTracks = manifest[dest];
+
     fromTracks.forEach(track => {
         const opt = document.createElement("option");
         opt.value = track;
@@ -38,11 +39,20 @@ function handleDestinationChange(e) {
         fromSelect.appendChild(opt);
     });
 
-    fromSelect.addEventListener("change", () => {
-        const from = fromSelect.value;
+    // Set the first option as selected by default
+    fromSelect.value = fromTracks[0];
+    updateImage(dest, fromTracks[0]);
+
+    // Remove any old event listeners by replacing the element (simplest approach)
+    const newFromSelect = fromSelect.cloneNode(true);
+    fromSelect.parentNode.replaceChild(newFromSelect, fromSelect);
+
+    newFromSelect.addEventListener("change", () => {
+        const from = newFromSelect.value;
         updateImage(dest, from);
     });
 }
+
 
 function updateImage(dest, from) {
     const img = document.getElementById("mapImage");
