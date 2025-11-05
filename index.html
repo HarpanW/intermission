@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mario Kart World Intermission Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mario Kart World — Intermission Route Viewer</h1>
+  </header>
+
+  <main>
+    <section id="controls">
+      <label for="routeSelect">Select route:</label>
+      <select id="routeSelect"></select>
+
+      <input type="text" id="searchBox" placeholder="Search route..." />
+    </section>
+
+    <section id="viewer">
+      <div id="notesPanel">
+        <h2>Notes</h2>
+        <p id="notesText">Choose a route from the list to begin.</p>
+      </div>
+
+      <div id="imagePanel">
+        <img id="mapImage" src="images/overview.png" alt="Map" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mario Kart World Intermission Atlas — built by you 🏎️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

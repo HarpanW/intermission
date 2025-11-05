@@ -1,0 +1,22 @@
+{
+    "routes": [
+        {
+            "name": "Sky Gut Bazaar → Crown City",
+            "direction": "normal",
+            "image": "images/route_001_normal.png",
+            "notes": "🌿 Double off-road cut at 65%. \n⭐ Use star after 3rd turn for bridge boost."
+        },
+        {
+            "name": "Crown City → Sky Gut Bazaar",
+            "direction": "reverse",
+            "image": "images/route_001_reverse.png",
+            "notes": "Shortcut behind palm cluster. No-item mini-turbo cut possible mid-route."
+        },
+        {
+            "name": "Battle Course East → Peach Stadium",
+            "direction": "normal",
+            "image": "images/route_002_normal.png",
+            "notes": "Long grassy shortcut near last turn. Best used with triple shrooms."
+        }
+    ]
+}
