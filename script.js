@@ -39,12 +39,9 @@ function handleDestinationChange(e) {
     });
 
     fromSelect.disabled = false;
-
-    // Automatically select first track
     fromSelect.selectedIndex = 0;
     updateImage(dest, fromSelect.value);
 
-    // Update image when user changes selection
     fromSelect.onchange = () => {
         updateImage(dest, fromSelect.value);
     };
@@ -55,5 +52,5 @@ function updateImage(dest, from) {
     const img = document.getElementById("mapImage");
     img.src = `images/${encodeURIComponent(dest)}/${encodeURIComponent(from)}.png`;
     img.alt = `${from} → ${dest}`;
-    img.style.display = "block"; // Show the image now that a selection was made
+    img.style.display = "block";
 }

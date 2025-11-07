@@ -15,7 +15,7 @@ os.makedirs(os.path.join(script_dir, "data"), exist_ok=True)
 with open(os.path.join(script_dir, "data", "manifest.json"), "w", encoding="utf-8") as f:
     json.dump(manifest, f, indent=2, ensure_ascii=False)
 
-print("✅ manifest.json updated!")
+print("done")
 
 
 # localhost: npx http-server
