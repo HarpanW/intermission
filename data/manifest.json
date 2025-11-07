@@ -1,4 +1,23 @@
 {
+  "bowsers-castle": [
+    "choco-mountain"
+  ],
+  "choco-mountain": [
+    "bowsers-castle"
+  ],
+  "dk-pass": [
+    "warios-shipyard"
+  ],
+  "dk-space-port": [
+    "crown-city"
+  ],
+  "great-block-ruins": [
+    "dino-dino-jungle"
+  ],
+  "toads-factory": [
+    "bowsers-castle",
+    "dandalion-depths"
+  ],
   "whistlestop-summit": [
     "mario-bros-circuit"
   ]

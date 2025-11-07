@@ -16,3 +16,6 @@ with open(os.path.join(script_dir, "data", "manifest.json"), "w", encoding="utf-
     json.dump(manifest, f, indent=2, ensure_ascii=False)
 
 print("✅ manifest.json updated!")
+
+
+# localhost: npx http-server
