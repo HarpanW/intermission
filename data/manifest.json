@@ -1,24 +1,96 @@
 {
+  "acorn-heights": [],
+  "airship-fortress": [
+    "bowsers-castle",
+    "shy-guy-bazaar",
+    "wario-stadium"
+  ],
+  "boo-cinema": [
+    "mario-circuit"
+  ],
   "bowsers-castle": [
-    "choco-mountain"
+    "choco-mountain",
+    "dry-bones-burnout",
+    "toads-factory",
+    "wario-stadium1"
+  ],
+  "cheep-cheep-falls": [
+    "dk_pass",
+    "salty-salty-speedway",
+    "sky-high-sundae",
+    "starview-peak",
+    "wario-shipyard"
   ],
   "choco-mountain": [
-    "bowsers-castle"
+    "bowsers-castle",
+    "Whistlestop_Summit_-_Choco_Mountain"
+  ],
+  "crown-city": [
+    "mario-bros-circuit",
+    "wario-stadium"
+  ],
+  "dandelion-depths": [
+    "sky-high-sundae"
+  ],
+  "dino-dino-jungle": [
+    "faraway-oasis"
   ],
   "dk-pass": [
-    "warios-shipyard"
+    "moo-moo-meadows",
+    "wario-shipyard"
   ],
   "dk-space-port": [
     "crown-city"
   ],
+  "dry-bones-burnout": [
+    "boo-cinema"
+  ],
+  "faraway-oasis": [
+    "peach-stadium"
+  ],
   "great-block-ruins": [
-    "dino-dino-jungle"
+    "dino-dino-jungle",
+    "faraway-oasis",
+    "salty-salty-speedway"
+  ],
+  "mario-bros-circuit": [
+    "shy-guy-bazaar",
+    "Wario_Stadium_-_Mario_Bros._Circuit"
+  ],
+  "mario-circuit": [
+    "Boo_Cinema_-_Mario_Circuit-1",
+    "starview-peak"
+  ],
+  "moo-moo-meadows": [
+    "choco-mountain",
+    "dandelion-depths",
+    "dk-pass",
+    "dry-bones-burnout",
+    "mario-circuit"
+  ],
+  "peach-beach": [
+    "salty-salty-speedway"
+  ],
+  "peach-stadium": [
+    "cheep-cheep-falls",
+    "choco-mountain"
+  ],
+  "shy-guy-bazaar": [],
+  "starview-peak": [
+    "wario-shipyard"
   ],
   "toads-factory": [
+    "airship-fortress",
     "bowsers-castle",
-    "dandalion-depths"
+    "dandalion-depths",
+    "dry-bones-burnout"
+  ],
+  "wario-shipyard": [
+    "DK_Pass_-_Wario_Shipyard",
+    "starview-peak"
   ],
   "whistlestop-summit": [
+    "desert-hills",
     "mario-bros-circuit"
   ]
 }
